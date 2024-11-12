@@ -15,7 +15,7 @@ export default function Page() {
                 <div className="w-full max-w-md overflow-hidden p-4 mx-auto rounded-xl bg-card shadow-2xl">
                     <h1 className="text-center text-2xl">Login to linkora</h1>
                     <div className="space-y-5 mt-5">
-                        <GoogleSignInButton />
+{/*                         <GoogleSignInButton /> */}
                         <LoginForm />
                         <Link href="/signup" className="block text-center font-bold text-sky-600 text-xl">
                             Don&apos;t have an account?
